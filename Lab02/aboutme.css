@@ -1,0 +1,55 @@
+body {
+	background-color: #1D2475;
+	color: #939396;
+	font-family: Helvetica, Verdana, sans-serif;
+	background-image: url("images/cse326bg.jpg");
+  	background-repeat: no-repeat;
+  	background-position: top right;
+}
+
+h1 {
+	font-size: 40pt;
+	color: #F7931E;
+	text-shadow: 3px -3px 0 green;
+}
+h2 { color: #F7931E; }
+
+dd { font-size: 70%; }
+
+dt {
+	font-weight: bold;
+	color: #FFF86B;
+}
+
+em, strong { color: #FFF86B; }
+
+q {
+	color: #D1DFEB;
+	text-align: left;
+}
+ul {
+	list-style-type: square;
+	text-align: left;
+}
+ol { text-align: left; }
+
+table, tr, td, th {
+	border-style: dotted;
+	border-collapse: collapse;
+}
+
+.favoriteimg {
+	outline-style: solid;
+	outline-width: medium;
+	outline-color: #F7931E;
+}
+
+a:link    { color: #FF4F4F; }      /* unvisited link */
+a:visited { color: #00FF00; }      /* visited link */
+a:hover   { color: #FF00FF; }      /* mouse over link */
+
+p:first-letter { 
+	font-size: 150%;
+	font-weight: bold;
+ }
+p { font-style: italic; }
