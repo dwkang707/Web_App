@@ -94,7 +94,7 @@
 		
 		<!-- Ex 3: Show the complete contents of "loosers.txt".
 			 Place the file contents into an HTML <pre> element to preserve whitespace -->
-		<pre><p><?= file_get_contents($filename) ?></p></pre>
+		<pre><?= file_get_contents($filename) ?></pre>
 		<?php } ?>
 		<?php
 			/* Ex 2: 
